@@ -1,7 +1,7 @@
 backend:
   name: github
+  repo: "GoncaloRodrigues96/mundo-eafc"
   branch: main
-  login: true
 
 media_folder: "images"
 public_folder: "/images"
@@ -19,4 +19,3 @@ collections:
       - { label: "Categorias", name: "categories", widget: "list" }
       - { label: "Imagem de capa", name: "cover", widget: "image" }
       - { label: "Galeria", name: "gallery", widget: "list", field: {label: "Imagem", name: "url", widget: "image"} }
- 
