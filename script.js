@@ -18,13 +18,9 @@ function formatDate(date) {
   return `Last Update: ${day}${suffix} ${month} ${year}`;
 }
 
-function getPosts() {
-  const stored = localStorage.getItem('mundoEafcPosts');
-  if (stored) {
-    return JSON.parse(stored);
-  } else {
-    return []; // retorno seguro
-  }
+async function getPosts() {
+  const response = await fetch('posts.json');
+  return await response.json();
 }
 
 function savePosts(posts) {
