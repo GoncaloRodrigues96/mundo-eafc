@@ -1,7 +1,8 @@
 backend:
-  name: github
-  repo: "GoncaloRodrigues96/mundo-eafc"
+  name: git-gateway
   branch: main
+  login: true
+
 
 media_folder: "images"
 public_folder: "/images"
