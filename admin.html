@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Mundo EAFC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h2>Adicionar / Editar Post</h2>
+    <form id="post-form">
+      <label for="title">Título</label><br>
+      <input type="text" id="title" required><br>
+
+      <label for="summary">Resumo</label><br>
+      <textarea id="summary" required></textarea><br>
+
+      <label for="content">Conteúdo</label><br>
+      <textarea id="content" required></textarea><br>
+
+      <label for="cover">URL da imagem de capa</label><br>
+      <input type="url" id="cover"><br>
+
+      <label for="gallery">URLs das imagens (separadas por vírgula)</label><br>
+      <textarea id="gallery"></textarea><br>
+
+      <label for="categories">Categorias (separadas por vírgula)</label><br>
+      <input type="text" id="categories"><br>
+
+      <button type="submit">Guardar</button>
+    </form>
+
+    <h3>Posts Existentes</h3>
+    <div id="existing-posts"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

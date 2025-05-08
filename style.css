@@ -1,0 +1,149 @@
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #0d1117;
+  padding: 1rem;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #f0f0f0;
+}
+header {
+  background: #161b22;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav a {
+  margin-left: 1rem;
+  color: #58a6ff;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.latest-posts{
+  margin: 1rem 0;
+}
+#posts-container > div,
+#all-posts > div{
+  background: #21262d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #58a6ff;
+}
+.cover-img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+.slideshow {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.slide-img {
+  max-height: 200px;
+  border-radius: 6px;
+}
+.post-card {
+  background: #21262d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #58a6ff;
+}
+.card-horizontal {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.thumb {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #333;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.thumb.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  font-size: 0.8rem;
+}
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-content h3 {
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+}
+.card-content p {
+  color: white;
+}
+.badge {
+  display: inline-block;
+  background: #2a9df4;
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 0.4em;
+  font-size: 0.75rem;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+.card-content small {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #161b22;
+  margin-top: 2rem;
+}
+
+input[type="text"],
+select {
+  background-color: #1e242c;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #3a8ccc; /* azul escuro mais suave */
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  border-radius: 0.4em;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+.card-horizontal {
+  padding: 0.5rem;
+}
