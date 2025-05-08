@@ -3,7 +3,6 @@ backend:
   branch: main
   login: true
 
-
 media_folder: "images"
 public_folder: "/images"
 
@@ -19,4 +18,4 @@ collections:
       - { label: "Conteúdo", name: "body", widget: "markdown" }
       - { label: "Categorias", name: "categories", widget: "list" }
       - { label: "Imagem de capa", name: "cover", widget: "image" }
-      - { label: "Galeria", name: "gallery", widget: "list", field: {label: "Imagem", name: "url", widget: "image"} }
+      - { label: "Galeria", name: "gallery", widget: "list", field: { label: "Imagem", name: "url", widget: "image" } }
